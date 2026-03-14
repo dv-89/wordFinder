@@ -1,0 +1,13 @@
+body { margin: 0; font-family: Arial, sans-serif; width: 380px; }
+.container { padding: 10px; }
+h1 { font-size: 1.2rem; margin: 0 0 8px; }
+textarea { width: 100%; min-height: 120px; resize: vertical; border: 1px solid #bbb; border-radius: 4px; padding: 6px; font-size: 0.95rem; }
+.buttons { margin-top: 8px; display: flex; gap: 8px; }
+button { border: 0; border-radius: 4px; background: #2274A5; color: white; padding: 6px 10px; cursor: pointer; flex: 1; font-weight: 600; }
+button:hover { background: #1a5f83; }
+.message { margin-top: 8px; color: #333; font-size: 0.9rem; }
+#results { margin-top: 8px; }
+.result-item { margin-bottom: 4px; font-size: 0.9rem; display: flex; align-items: center; gap: 6px; }
+.result-item .dot { width: 14px; display: inline-block; text-align: center; }
+.result-good { color: #1d8f43; }
+.result-bad { color: #cc2c2c; }

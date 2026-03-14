@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Word Finder Checker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Word Finder</h1>
+    <label for="words">Enter one word/phrase per line:</label>
+    <textarea id="words" placeholder="premium package\nfree trial\nexample phrase"></textarea>
+    <div class="buttons">
+      <button id="saveBtn">Save</button>
+      <button id="checkBtn">Check Page</button>
+    </div>
+    <div id="msg" class="message"></div>
+    <div id="results"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

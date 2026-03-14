@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Word Finder Checker",
+  "version": "1.0",
+  "description": "Save words and check if each word/phrase exists on a webpage.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Word Finder Checker"
+  }
+}
